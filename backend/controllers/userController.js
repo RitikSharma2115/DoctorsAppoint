@@ -201,9 +201,7 @@ const cancelAppointment = async (req, res) => {
       return res.json({ success: false, message: "Unauthorized action" });
     }
 
-    await appointmentModel.findByIdAndUpdate(appointmentId, {
-      cancelled: true,
-    });
+    await appointmentModel.findByIdAndUpdate(appointmentId, { cancelled: true });
 
     // releasing doctor slot
 
