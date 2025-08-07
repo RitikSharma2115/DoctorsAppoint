@@ -36,21 +36,22 @@
 
 ---
 
-## 📁 Folder Structure
+## 🔒 Authentication Flow
 
-Doctor'sAppoint+/
-├── admin/ # Admin dashboard (React)
-├── backend/ # Backend APIs (Node.js + Express)
-├── frontend/ # Patient & Doctor-facing UI (React)
-├── README.md
+- JWT-based secure login
+- Role-based access:
+   - Patients → Book/manage appointments
+   - Doctors → View profile, appointments, and earnings
+   - Admin → Manage doctors and appointments
 
 ---
 
-🔒 Authentication Flow
-• JWT-based secure login
-• Role-based access:
-   • Patients → Book/manage appointments
-   • Doctors → View profile, appointments, and earnings
-   • Admin → Manage doctors and appointments
+## 📁 Folder Structure
+
+- Doctor'sAppoint+/
+  - ├── admin/ # Admin dashboard (React)
+  - ├── backend/ # Backend APIs (Node.js + Express)
+  - ├── frontend/ # Patient & Doctor-facing UI (React)
+  - ├── README.md
 
 ---
