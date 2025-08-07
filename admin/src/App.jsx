@@ -22,7 +22,7 @@ const App = () => {
 
   return aToken || dToken ? (
     <div className='bg-[#F8F9FD]'>
-      <ToastContainer />
+      <ToastContainer autoClose={1500} />
       <Navbar />
       <div className='flex items-start'>
         <Sidebar />
